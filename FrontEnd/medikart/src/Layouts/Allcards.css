@@ -1,0 +1,30 @@
+.Allcards{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    border: rgb(52, 51, 51) 1px solid;
+    padding: 10px;
+    /* margin: 0 auto; */
+    /* font-size: 150%; */
+    width: 300px
+    
+}
+.Allcards-wrapper {
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr) ) ;
+    background-color: #f7f7f7;
+  }
+  
+  .BeerListingScroll-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: rgb(202, 233, 252);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    width: 320px;
+  }

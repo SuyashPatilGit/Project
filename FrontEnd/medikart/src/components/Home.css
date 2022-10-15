@@ -1,0 +1,155 @@
+.Home{
+    /* background-image: url("../images/BG.jpg");  */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* //display: flex; */
+    background-position: center;
+    background-size : cover;
+    height: 3000px;;
+    width: 1895px;
+    color: rgb(195, 234, 249);
+    margin-bottom: 100px;
+    background-color: rgb(161, 180, 199);
+}
+.title{
+    font-weight: bold;  
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+}
+.body{
+    
+    color: black;
+}
+
+.footer{
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: #3f3c3c;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-style: normal;
+    color: whitesmoke;
+    
+  }
+  .App {
+    background-color: white;
+  }
+  
+  .Auth-form-container {
+    margin-left: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+  
+  .Login{
+
+    background-image: url("../images/123.jpg");
+    background-size: "cover";
+    height: 100%;
+    width: 100%;
+    margin-top: -70px;
+    /* font-size:50px; */
+    background-repeat:no-repeat;
+  }
+
+  .SignUp{
+    background-image: url("../images/medi3.avif");
+    background-size: "cover";
+    height: 80pc;
+    width: 120pc;
+    ;
+    /* font-size:50px; */
+    background-repeat:no-repeat;
+
+  }
+  .buttonW{
+      width: 20px;
+      height: 35px;
+      text-align: justify;
+    
+  }
+  .Address{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+  }
+  .UpdatePassword{
+    background-image: url("../images/123.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+   
+    /* font-size:50px; */
+    
+
+  }
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.userNav{
+
+  align-items: right;
+
+}
+.cardImage{
+  height: 150px;
+  width: 272px;
+  background-color: whitesmoke;
+}
+.prouctDetails{
+
+  background-repeat: no-repeat;
+    background-position: left;
+    background-size : cover;
+  background-color: whitesmoke;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
